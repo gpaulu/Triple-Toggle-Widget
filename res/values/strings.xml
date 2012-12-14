@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Triple Toggle Widget</string>
     <string name="toggle_silent_mode">Toggle Silent Mode</string>
+    <string name="click_here_to_toggle">Click here to toggle</string>
 </resources>

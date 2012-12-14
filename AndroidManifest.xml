@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="me.paulunger.android.tripletogglewidget" android:versionCode="2" android:versionName="0.2">
     <uses-sdk android:minSdkVersion="4"/>
-    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:allowBackup="true">
         <receiver android:name="me.paulunger.android.tripletogglewidget.AppWidget" android:label="@string/app_name" android:icon="@drawable/icon">
         	<intent-filter>
         		<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
